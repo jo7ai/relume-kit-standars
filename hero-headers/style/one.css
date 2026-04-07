@@ -44,14 +44,20 @@ button{
 h1{
     font-style: 56px;
     font-weight: 700;
-
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(0.2px);
 }
 
 p{
     font-style: 18px;
     font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(0.2px);
 }
 
-body{
-    background-image: url(../);
-}
+body {
+    background-image: url('../assets/jota.JPG');
+    background-size: contain; 
+    background-position: center;  
+    background-repeat: no-repeat; 
+  }
